@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All I want to say is...</title>
+</head>
+<body id="bg">
+    <h1 style="text-align: center;"><p class="quote4"></p></h1>
+    <div class="quote44"></div>
+    
+    <audio id="myAudio" controls autoplay>
+        <source src="Sound.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+    
+</body>
+
+<style>
+
+    #bg{
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .quote4{
+        font-size: 40px;
+        color: white;
+
+        font-style: italic;
+        font-weight: 100;
+        font-family: 'Nanum Pen Script', cursive;
+
+        position: relative;
+        cursor: pointer;
+        top: 300px;
+        margin-left: 580px;
+        margin-right: 580px;
+    }
+
+    #myAudio{
+       display: none; 
+    }
+
+</style>
+</html>
